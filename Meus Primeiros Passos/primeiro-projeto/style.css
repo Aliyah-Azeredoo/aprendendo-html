@@ -7,103 +7,161 @@
 }
 
 header{
-    display: flex;
     max-width: 100%;
-    margin: 20px auto;
-    gap: 80px;
-}
-
-.head{
-    background: #2e5746;
-}
-
-.img-principal{
-    max: width 900px;
-    height: 500px;
-    display: block;
-    justify-content: center;
-    margin: auto;
-
+    height: 1000px;
+    display: flex;
+    background-color: #2e5746;
 }
 
 .titulo{
-    font-family: 'Clear Sans', 'Open Sans', sans-serif;
+    font-family: 'Clear Sans','Open Sans', 'DM Sans', sans-serif;
     font-size: 40px;
     color: #f5c757;
     text-align: left;
-    align-items: center;
     text-wrap: nowrap;
-    display: flex;
-    margin-top: 200px;
-    margin-left: 290px;
-}
-
-.titulo2{
-    font-family:'Clear Sans', 'Open Sans', sans-serif;
-    font-size: 35px;
-    color: #2e5746;
-    text-align: left;
-    align-items: left;
-    margin-top: 20px;
-    margin-left: 400px;
+    padding-top: 350px;
+    margin-left: 300px;
+    margin-right: 100px;
 }
 
 .subtitulo{
-    font-family: 'DM Sans', 'Open Sans', sans-serif;
-   font-size: 20px;
-   color: #fff;
-   text-align: center;
-   margin-left: 294px; 
-   text-wrap: wrap;   
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 25px;
+    color: #c6d9cf;
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: 298px;
+}
+
+.subtitulo2{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 35px;
+    color: #2e5746;
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.subtitulo3{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.img1{
+    width: 900px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+    gap: 10px;
 }
 
 .img2{
-     width: 500px;
-    height: 300px;
-    display: flex;
-    justify-content: left;
-    margin-left: 400px;
+    width: 800px;
+    height: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 620px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.img3{
+    width: 250px;
+    height: 150px;
+    margin-left:50px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 0%;
 }
 
-.color1{
-    background-color: #fff;
-    max-width: 100%;
-    padding: bottom 20px;
+.legenda{
+    font-size: 12px;
+   margin-top: 10px;
+   margin-left: 200px;
+   margin-bottom: 0px;
 }
 
-
+.legenda2{
+    font-size: 12px;
+   margin-top: 10px;
+   margin-left: 750px;
+   margin-bottom: 0px;
+}
 
 .paragrafo{
-    font-family: 'DM Sans', 'Open Sans', sans-serif;
-   font-size: 18px;
-   color: #000;
-   text-align: left;
-   align-items: center;
-   margin-left: 100px; 
-   margin-bottom: 20px;
-   text-wrap: wrap; 
-    
-}
-.paragrafo2{
-    font-family: 'DM Sans', 'Open Sans', sans-serif;
-   font-size: 18px;
-   color: #000;
-   text-align: left;
-   align-items: flex-start;
+   font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 25px; 
+    margin-left: 750px;
+    margin-top: 30px;
    display: flex;
-   margin-bottom: 20px; 
-  gap: 500px;
-   text-wrap: wrap; 
- 
-}
-ul{
-    list-style-type: none;
-   padding-top: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
 }
 
- .ancor{
-    color: #000;
+.ancora{
     text-decoration: underline;
+    color: #000;
+}
+
+.botao{
+    background-color: #2e5746;
+    color: #f5c757;
+    font-size: 20px;
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+   
+}
+
+#tamanho{
+    max-height: 2500px;
+}
+
+.container{
+    max-width: 100%;
+    max-height: 2500px;
+    background-color: #2e5746;
+    gap: ;
+}
+
+.container2{
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+
+.container3{
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    margin-left: 850px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.paragrafo2{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
 }
