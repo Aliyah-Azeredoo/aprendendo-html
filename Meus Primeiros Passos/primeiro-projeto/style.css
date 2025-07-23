@@ -38,20 +38,21 @@ header{
     font-size: 35px;
     color: #2e5746;
     text-align: center;
-    text-wrap: wrap;
-    margin-left: 55px;
-    padding-top: 50px;
+    
 }
 
-.subtitulo3{
+#subtitulo3{
     font-family: 'Open Sans', 'DM Sans', sans-serif;
     font-size: 35px;
     color: #fff;
     text-align: center;
-    text-wrap: wrap;
-    margin-left: 55px;
-    padding-top: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
 }
+
+
 
 .img1{
     width: 900px;
@@ -72,19 +73,21 @@ header{
     display: block;
     align-items: center;
     justify-content: center;
-    margin-left: 620px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     border-radius: 10px;
-    padding: 0%;
+    padding-right: 0px;
 }
 
 .img3{
     width: 250px;
     height: 150px;
-    margin-left:50px;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .legenda{
@@ -104,12 +107,11 @@ header{
 .paragrafo{
    font-family: 'Open Sans', 'DM Sans', sans-serif;
     font-size: 25px; 
-    margin-left: 750px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
-   display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 50px;
+   text-align: center;
+    margin-bottom: 40px;
 }
 
 .ancora{
@@ -125,38 +127,40 @@ header{
     border-radius: 30px;
     padding: 15px;
     margin-bottom: 100px;
-    margin-left: 120px;
-   
+    margin-left: auto;
+   margin-right: auto;
 }
 
 #tamanho{
     max-height: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.container{
+/*COMO COLOCAR UMA DIV AO LADO DA OUTRA */
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     max-height: 2500px;
     background-color: #2e5746;
-    gap: ;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.container2{
-    background-color: #fff;
-    width: 350px;
+#container div{
     height: 350px;
-    margin-left: 400px;
+    width: 350px;
+    background-color: #fff;
     border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    
 }
+/* //COMO COLOCAR UMA DIV AO LADO DA OUTRA// */
 
-.container3{
-    background-color: #fff;
-    width: 350px;
-    height: 350px;
-    margin-left: 850px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
+
 
 .paragrafo2{
     font-family: 'Open Sans', 'DM Sans', sans-serif;
@@ -164,4 +168,33 @@ header{
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+footer div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-rodape{
+    font-family: 'Clear Sans','Open Sans', 'DM Sans', sans-serif;
+    font-size: 40px;
+    color: #2e5746;
+    text-align: center;
+}
+
+.subtitulo-rodape{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 25px;
+}
+
+.subtitulo-rodape2{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
