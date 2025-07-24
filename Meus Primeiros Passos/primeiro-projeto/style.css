@@ -19,7 +19,7 @@ header{
     color: #f5c757;
     text-align: left;
     text-wrap: nowrap;
-    padding-top: 350px;
+    padding-top: 250px;
     margin-left: 300px;
     margin-right: 100px;
 }
@@ -52,7 +52,14 @@ header{
     margin-top: 20px;
 }
 
-
+.home{
+    width: 80px;
+     display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 298px;
+    margin-top: 100px;
+}
 
 .img1{
     width: 900px;
@@ -140,13 +147,14 @@ header{
 /*COMO COLOCAR UMA DIV AO LADO DA OUTRA */
 #container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     max-width: 100%;
     max-height: 2500px;
     background-color: #2e5746;
     padding-top: 80px;
     padding-bottom: 80px;
+    border: 2px solid #fff;
 }
 
 #container div{
@@ -197,4 +205,45 @@ footer div{
     font-family: 'Open Sans', 'DM Sans', sans-serif;
     font-size: 18px;
     text-align: center;
+}
+
+.titulo-contato{
+    font-family: 'Clear Sans','Open Sans', 'DM Sans', sans-serif;
+    font-size: 60px;
+    color: #2e5746;
+    text-align: left;
+    margin-left: 298px;
+    margin-top: 250px;
+    margin-right: 350px;
+}
+
+.subtitulo-contato{
+    font-family: 'Open Sans', 'DM Sans', sans-serif;
+    font-size: 38px;
+    text-align: left;
+    margin-left: 298px;
+    margin-top: 40px;
+}
+
+.paragrafo3{
+    font-family:  'DM Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 298px;
+}
+
+.img-contato{
+    width: 950px;
+    height: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: right;
+    
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
